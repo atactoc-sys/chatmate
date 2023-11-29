@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chatmate/static/css/main.9a23d3e5.css",
+    "main.js": "/chatmate/static/js/main.e1c3ef53.js",
+    "static/media/smlogo.png": "/chatmate/static/media/smlogo.4c0fabfd997e37a349e9.png",
+    "index.html": "/chatmate/index.html",
+    "main.9a23d3e5.css.map": "/chatmate/static/css/main.9a23d3e5.css.map",
+    "main.e1c3ef53.js.map": "/chatmate/static/js/main.e1c3ef53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a23d3e5.css",
+    "static/js/main.e1c3ef53.js"
+  ]
+}
