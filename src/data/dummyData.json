@@ -1,0 +1,40 @@
+{
+  "users": [
+    { "id": "1", "username": "John", "name": "John Doe" },
+    { "id": "2", "username": "Jane", "name": "Jane Smith" },
+    { "id": "3", "username": "Bob", "name": "Bob Johnson" },
+    { "id": "4", "username": "Bobp", "name": "Bobp Anderson" }
+  ],
+  "contacts": [
+    { "id": "1", "username": "John", "name": "John Doe" },
+    { "id": "2", "username": "Jane", "name": "Jane Smith" },
+    { "id": "3", "username": "Bob", "name": "Bob Johnson" },
+    { "id": "4", "username": "Bob", "name": "Bob Anderson" }
+  ],
+  "conversations": [
+    {
+      "id": "1",
+      "contact": { "id": "1", "name": "John Doe" },
+      "messages": [
+        { "id": "1", "sender": "John Doe", "text": "Hi there!" },
+        { "id": "2", "sender": "You", "text": "Hello! How are you?" }
+      ]
+    },
+    {
+      "id": "2",
+      "contact": { "id": "2", "name": "Jane Smith" },
+      "messages": [
+        { "id": "3", "sender": "You", "text": "Hey Jane, what's up?" },
+        { "id": "4", "sender": "Jane Smith", "text": "Not much, just chilling." }
+      ]
+    },
+    {
+      "id": "3",
+      "contact": { "id": "3", "name": "Alice Johnson" },
+      "messages": [
+        { "id": "5", "sender": "Alice Johnson", "text": "Hello! How's your day?" },
+        { "id": "6", "sender": "You", "text": "It's good, thanks! How about yours?" }
+      ]
+    }
+  ]
+}
